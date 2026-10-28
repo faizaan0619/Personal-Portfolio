@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowUpRight, GitFork, ExternalLink, Mail, FileText } from 'lucide-react';
+import { ArrowUpRight, GitFork, ExternalLink, Mail, FileText, Database } from 'lucide-react';
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
   visible: (i: number) => ({
@@ -92,7 +92,7 @@ export default function Hero() {
             </motion.button>
 
             <motion.a
-              href="https://drive.google.com/file/d/1sxN2wZq7GpvN8zeiaLsAEAjqv9r_6077/view?usp=sharing"
+              href="https://drive.google.com/file/d/13201CgnXlmY1C_s3kVAFWaiTYOK0bxhV/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-2.5 bg-transparent border border-[#232326] text-[#A1A1AA] hover:text-[#FAFAFA] hover:border-[#3B82F6] text-sm font-medium rounded-lg flex items-center gap-2 transition-all duration-200"
@@ -115,6 +115,8 @@ export default function Hero() {
             <SocialLink href="https://github.com/faizaan0619" icon={<GitFork size={16} />} label="GitHub" />
             <span className="w-px h-4 bg-[#232326]" />
             <SocialLink href="https://linkedin.com/in/faizaan-shah" icon={<ExternalLink size={16} />} label="LinkedIn" />
+            <span className="w-px h-4 bg-[#232326]" />
+            <SocialLink href="https://kaggle.com/faizanmushtaq06" icon={<Database size={16} />} label="Kaggle" />
             <span className="w-px h-4 bg-[#232326]" />
             <SocialLink href="mailto:hii.faizaan@gmail.com" icon={<Mail size={16} />} label="Email" />
           </motion.div>

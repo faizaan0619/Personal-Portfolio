@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { GitFork, ExternalLink, Mail, ArrowUpRight } from 'lucide-react';
+import { GitFork, ExternalLink, Mail, ArrowUpRight, Database } from 'lucide-react';
 
 const contacts = [
   {
@@ -16,6 +16,12 @@ const contacts = [
     label: 'LinkedIn',
     value: 'faizaan-shah',
     href: 'https://linkedin.com/in/faizaan-shah',
+  },
+  {
+    icon: <Database size={18} />,
+    label: 'Kaggle',
+    value: 'faizanmushtaq06',
+    href: 'https://kaggle.com/faizanmushtaq06',
   },
   {
     icon: <Mail size={18} />,

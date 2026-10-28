@@ -55,6 +55,14 @@ export default function Navbar() {
             {links.map((link) => (
               <NavLink key={link.href} href={link.href} label={link.label} onClick={handleNav} />
             ))}
+            <a
+              href="https://drive.google.com/file/d/13201CgnXlmY1C_s3kVAFWaiTYOK0bxhV/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3 py-1 text-xs font-mono tracking-wide text-[#A1A1AA] hover:text-[#FAFAFA] border border-[#232326] hover:border-[#3B82F6] rounded-md transition-all duration-200"
+            >
+              Resume ↗
+            </a>
           </div>
 
           {/* Mobile hamburger */}
@@ -88,6 +96,14 @@ export default function Navbar() {
                   {link.label}
                 </button>
               ))}
+              <a
+                href="https://drive.google.com/file/d/13201CgnXlmY1C_s3kVAFWaiTYOK0bxhV/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-left text-[#3B82F6] hover:text-[#60A5FA] transition-colors text-base py-1 font-mono text-sm"
+              >
+                Resume ↗
+              </a>
             </div>
           </motion.div>
         )}

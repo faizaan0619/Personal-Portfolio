@@ -6,19 +6,19 @@ import { motion, useInView } from 'framer-motion';
 const skills = [
   {
     category: 'Languages',
-    items: ['Python', 'SQL', 'JavaScript'],
+    items: ['Python', 'SQL', 'C / C++', 'JavaScript'],
   },
   {
-    category: 'Machine Learning',
-    items: ['Scikit-learn', 'TensorFlow', 'PyTorch'],
+    category: 'Machine Learning & CV',
+    items: ['Scikit-learn', 'PyTorch', 'YOLOv8', 'OpenCV', 'NLP (TF-IDF)'],
   },
   {
     category: 'Data Science',
-    items: ['Pandas', 'NumPy', 'Matplotlib'],
+    items: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Feature Engineering'],
   },
   {
-    category: 'Tools',
-    items: ['Git', 'Docker', 'Linux'],
+    category: 'Frameworks & Tools',
+    items: ['FastAPI', 'Flask', 'Docker', 'PostgreSQL', 'MySQL', 'Git'],
   },
 ];
 
@@ -64,9 +64,9 @@ export default function About() {
               transition={{ duration: 0.65, delay: 0.2, ease: 'easeOut' }}
               className="text-[#71717A] text-base leading-relaxed max-w-[480px]"
             >
-              I specialize in machine learning, data analytics, and production AI systems.
-              My focus is building intelligent software that solves real-world problems —
-              from predictive models to end-to-end data pipelines that scale.
+              I specialize in machine learning, computer vision, and applied NLP systems.
+              My focus is building intelligent software that solves real-world operational problems —
+              from autonomous retail shelf monitoring and resume ATS parsing to predictive ML pipelines that scale.
             </motion.p>
 
             {/* Subtle divider */}
@@ -86,15 +86,15 @@ export default function About() {
             >
               <div className="flex items-center gap-3 text-sm">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#3B82F6]/60" />
-                <span className="text-[#A1A1AA]">BCA Honours — Cluster University Srinagar</span>
+                <span className="text-[#A1A1AA]">MCA (Masters of Computer Applications) - Cluster University Srinagar</span>
               </div>
               <div className="flex items-center gap-3 text-sm">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#3B82F6]/60" />
-                <span className="text-[#A1A1AA]">Focused on AI/ML Engineering & Data Science</span>
+                <span className="text-[#A1A1AA]">Focused on AI/ML Engineering &amp; Computer Vision</span>
               </div>
               <div className="flex items-center gap-3 text-sm">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#3B82F6]/60" />
-                <span className="text-[#A1A1AA]">Based in Srinagar, India</span>
+                <span className="text-[#A1A1AA]">Based in Srinagar, Jammu &amp; Kashmir, India</span>
               </div>
             </motion.div>
           </div>
